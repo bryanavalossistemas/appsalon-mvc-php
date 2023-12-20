@@ -1,0 +1,23 @@
+{
+    "name": "bryan/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, MVC, SQL, SASS, Gulp",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "./classes",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "bryan",
+            "email": "bryanavalossistemas@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "6.5",
+        "vlucas/phpdotenv": "5.5"
+    }
+}
